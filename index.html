@@ -1,0 +1,198 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>Druckdaten · Açaí x You Kiosk Spandau</title>
+<style>
+@font-face{font-family:Unb;src:url(fonts/Unbounded-800.ttf);font-weight:800}
+@font-face{font-family:Unb;src:url(fonts/Unbounded-600.ttf);font-weight:600}
+@font-face{font-family:Pop;src:url(fonts/Poppins-Medium.ttf);font-weight:500}
+@font-face{font-family:Pop;src:url(fonts/Poppins-SemiBold.ttf);font-weight:600}
+:root{--bg:#140816;--bg2:#1f0d24;--karte:#26122c;--linie:#3e2245;--text:#f6eef8;--mute:#bba8c0;--pink:#ff4fa3;--rosa:#fcaed9;--gruen:#57c47f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Pop,-apple-system,Helvetica,Arial,sans-serif;font-weight:500;line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+header.hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;background:linear-gradient(180deg,rgba(20,8,22,.15),rgba(20,8,22,.55) 55%,var(--bg)),url(ansichten/K1_Hero_links.jpg) center/cover}
+.hero .wrap{padding-bottom:56px}
+.tag{display:inline-block;font-family:Unb;font-weight:600;font-size:12px;letter-spacing:.18em;color:var(--rosa);margin-bottom:14px}
+h1{font-family:Unb;font-weight:800;font-size:clamp(34px,6vw,72px);line-height:1.02;margin:0 0 16px}
+h1 b{color:var(--pink)}
+.lead{max-width:640px;color:#e6d8ea;font-size:18px;margin:0 0 26px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--pink);color:#fff;text-decoration:none;font-weight:600;padding:12px 18px;border-radius:999px;font-size:14px;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px);background:#ff6ab2}
+.btn.hell{background:transparent;border:1.5px solid var(--linie);color:var(--text)}
+.btn.hell:hover{border-color:var(--rosa)}
+.btn.gross{padding:15px 22px;font-size:15px}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:-28px auto 0;position:relative}
+.spec{background:var(--karte);border:1px solid var(--linie);border-radius:16px;padding:16px 18px}
+.spec b{display:block;font-family:Unb;font-weight:800;font-size:20px;color:var(--rosa)}
+.spec span{color:var(--mute);font-size:13px}
+section{padding:64px 0 0}
+h2{font-family:Unb;font-weight:800;font-size:28px;margin:0}
+.gkopf p,.sub{color:var(--mute);margin:6px 0 22px}
+.uebersicht{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:start}
+.planbox{background:#fbf7fb;border-radius:20px;padding:18px}
+.plan{width:100%;height:auto;display:block}
+.plan a text{cursor:pointer} .plan a:hover text{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:var(--mute);font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:8px 6px;border-bottom:1px solid var(--linie)}
+td{padding:9px 6px;border-bottom:1px solid var(--linie);vertical-align:top}
+td:first-child a{font-family:Unb;font-weight:800;color:var(--pink);text-decoration:none}
+.raster{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.karte{background:var(--karte);border:1px solid var(--linie);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;scroll-margin-top:20px}
+.karte.breit{grid-column:1/-1}
+.karte .bild{background:#0d050f;display:flex;align-items:center;justify-content:center;padding:18px;min-height:220px}
+.karte img{max-width:100%;max-height:340px;display:block;border-radius:6px;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.info{padding:18px 20px 20px}
+.kopf{display:flex;align-items:center;gap:12px}
+.code{font-family:Unb;font-weight:800;font-size:15px;background:var(--pink);color:#fff;border-radius:10px;padding:4px 10px}
+h3{margin:0;font-size:18px;font-weight:600}
+dl{display:flex;flex-wrap:wrap;gap:8px 26px;margin:14px 0 8px}
+dt{color:var(--mute);font-size:12px} dd{margin:0;font-family:Unb;font-weight:600;font-size:16px}
+.ort{margin:6px 0 0;color:#e6d8ea} .hinweis{margin:4px 0 0;color:var(--rosa);font-size:14px}
+.dl{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.galerie{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+figure{margin:0;background:var(--karte);border:1px solid var(--linie);border-radius:16px;overflow:hidden}
+figure img{width:100%;display:block} figcaption{padding:10px 14px;color:var(--mute);font-size:13px}
+.hinweise{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.hinweise div{background:var(--karte);border:1px solid var(--linie);border-radius:16px;padding:18px}
+.hinweise b{display:block;margin-bottom:6px}
+footer{padding:56px 0 40px;color:var(--mute);font-size:13px}
+@media(max-width:900px){.specs{grid-template-columns:repeat(2,1fr)}.uebersicht{grid-template-columns:1fr}.raster{grid-template-columns:1fr}.galerie{grid-template-columns:1fr 1fr}.hinweise{grid-template-columns:1fr}}
+@media(max-width:520px){.wrap{padding:0 16px}.galerie{grid-template-columns:1fr}.specs{grid-template-columns:1fr 1fr}h2{font-size:23px}}
+</style></head><body>
+<header class="hero"><div class="wrap">
+<span class="tag">DRUCKDATEN · WERBETECHNIK · STAND 25.11.2026</span>
+<h1>Açaí x You<br>Kiosk <b>Spandau</b></h1>
+<p class="lead">Alle Flächen des Kiosks in Endmaß 1:1 mit Beschnitt, einzeln oder als Komplettpaket. Unten steht für jede Fläche, wo sie hinkommt, wie groß sie ist und in welcher Höhe sie sitzt.</p>
+<div class="btns"><a class="btn gross" href="dateien/Druckdaten_AcaiXYou_Kiosk_Spandau_PDF.zip" download>Komplettpaket herunterladen · 50.6 MB</a>
+<a class="btn hell gross" href="dateien/00_Klebeplan.pdf" download>Klebeplan PDF</a><a class="btn hell gross" href="#flaechen">Zu den Flächen</a></div>
+</div></header>
+<div class="wrap"><div class="specs">
+<div class="spec"><b>11</b><span>Flächen, sortiert nach Seite</span></div>
+<div class="spec"><b>1:1 + 20 mm</b><span>Endmaß plus Beschnitt umlaufend, gespiegelt</span></div>
+<div class="spec"><b>3000 px/m</b><span>rund 76 dpi in Endgröße</span></div>
+<div class="spec"><b>RGB · sRGB</b><span>PDF Seitengröße = Druckgröße</span></div>
+</div>
+<section><h2>Übersicht des Kiosks</h2><p class="sub">Draufsicht, Front unten, Rolltreppe hinten. Auf eine Nummer klicken springt zur Fläche.</p>
+<div class="uebersicht"><div class="planbox"><svg viewBox="0 -84.0 516.0 586.3" width="100%" class="plan" xmlns="http://www.w3.org/2000/svg"><rect x="90" y="40.0" width="336.0" height="342.29999999999995" fill="#faf6fa" stroke="#bbb"/><rect x="151.6" y="-37.0" width="218.4" height="77.0" fill="#f3d27a" stroke="#c9a33c"/><text x="258.0" y="8.5" text-anchor="middle" font-size="12" fill="#7a5a10">Lager unter der Rolltreppe</text><line x1="85.8" y1="319.99999999999994" x2="85.8" y2="40.0" stroke="#b0306f" stroke-width="7" stroke-linecap="butt"/><a href="#A1"><text x="73.8" y="179.29999999999998" text-anchor="end" font-size="13" font-weight="800" fill="#b0306f">A1</text></a><line x1="85.8" y1="382.29999999999995" x2="85.8" y2="319.99999999999994" stroke="#b0306f" stroke-width="7" stroke-linecap="butt"/><a href="#A2"><text x="73.8" y="350.79999999999995" text-anchor="end" font-size="13" font-weight="800" fill="#b0306f">A2</text></a><line x1="87.2" y1="35.800000000000026" x2="151.6" y2="35.800000000000026" stroke="#b0306f" stroke-width="7" stroke-linecap="butt"/><a href="#A3"><text x="120.8" y="26.0" text-anchor="middle" font-size="13" font-weight="800" fill="#b0306f">A3</text></a><line x1="430.19999999999993" y1="382.29999999999995" x2="430.19999999999993" y2="40.0" stroke="#5a1f55" stroke-width="7" stroke-linecap="butt"/><a href="#B1"><text x="442.19999999999993" y="210.79999999999995" text-anchor="start" font-size="13" font-weight="800" fill="#5a1f55">B1</text></a><line x1="364.4" y1="35.800000000000026" x2="428.8" y2="35.800000000000026" stroke="#5a1f55" stroke-width="7" stroke-linecap="butt"/><a href="#B2"><text x="395.19999999999993" y="26.0" text-anchor="middle" font-size="13" font-weight="800" fill="#5a1f55">B2</text></a><line x1="90.0" y1="386.49999999999994" x2="195.0" y2="386.49999999999994" stroke="#b88a55" stroke-width="7" stroke-linecap="butt"/><text x="142.5" y="404.29999999999995" text-anchor="middle" font-size="13" font-weight="800" fill="#b88a55">Holz</text><line x1="195.0" y1="386.49999999999994" x2="321.0" y2="386.49999999999994" stroke="#b0306f" stroke-width="7" stroke-linecap="butt"/><a href="#F2"><text x="258.0" y="404.29999999999995" text-anchor="middle" font-size="13" font-weight="800" fill="#b0306f">F2</text></a><line x1="321.0" y1="386.49999999999994" x2="426.0" y2="386.49999999999994" stroke="#b88a55" stroke-width="7" stroke-linecap="butt"/><text x="373.5" y="404.29999999999995" text-anchor="middle" font-size="13" font-weight="800" fill="#b88a55">Holz</text><line x1="233.5" y1="44.199999999999974" x2="359.5" y2="44.199999999999974" stroke="#2a8a5a" stroke-width="7" stroke-linecap="butt"/><a href="#I1"><text x="296.5" y="62.0" text-anchor="middle" font-size="13" font-weight="800" fill="#2a8a5a">I1 / I2</text></a><rect x="163.5" y="36.0" width="63.0" height="8" fill="#fff" stroke="#888"/><text x="195.0" y="62.0" text-anchor="middle" font-size="10" fill="#888">Tür</text><text x="258.0" y="211.14999999999998" text-anchor="middle" font-size="12" fill="#999">Kiosk 4,80 × 4,89 m</text><text x="258.0" y="430.29999999999995" text-anchor="middle" font-size="12" fill="#555">FRONT (Kunden)</text><text x="258.0" y="231.14999999999998" text-anchor="middle" font-size="10" fill="#999">Werbetafeln oben: A4 über A1, B3 über B1, F1 über der Front (UK 2,30 m)</text></svg></div>
+<div><table><tr><th>Nr</th><th>Fläche</th><th>Maß</th><th>UK</th><th>Ort</th></tr><tr><td><a href='#A1'>A1</a></td><td>Seite A Wand</td><td>4.00 × 1.50 m</td><td>0.00 m</td><td>Seite A, Außenwand, durchgehend bis zur Saladette</td></tr><tr><td><a href='#A2'>A2</a></td><td>Seite A Saladette</td><td>0.89 × 0.87 m</td><td>0.00 m</td><td>Seite A vorn, Saladette unter der Arbeitsplatte</td></tr><tr><td><a href='#A3'>A3</a></td><td>Seite A Rückseite Rolltreppe</td><td>0.92 × 1.50 m</td><td>0.00 m</td><td>hinten links, Ecke zur Rolltreppe</td></tr><tr><td><a href='#A4'>A4</a></td><td>Seite A Werbetafel</td><td>4.00 × 0.50 m</td><td>2.30 m</td><td>über Seite A, Werbetafel</td></tr><tr><td><a href='#B1'>B1</a></td><td>Seite B Wand</td><td>4.89 × 1.50 m</td><td>0.00 m</td><td>Seite B, Außenwand, durchgehend</td></tr><tr><td><a href='#B2'>B2</a></td><td>Seite B Rückseite Rolltreppe</td><td>0.92 × 1.50 m</td><td>0.00 m</td><td>hinten rechts, Ecke zur Rolltreppe</td></tr><tr><td><a href='#B3'>B3</a></td><td>Seite B Werbetafel</td><td>4.00 × 0.50 m</td><td>2.30 m</td><td>über Seite B, Werbetafel</td></tr><tr><td><a href='#F1'>F1</a></td><td>Front Werbetafel Menüboard</td><td>4.80 × 0.50 m</td><td>2.30 m</td><td>Front oben, Werbetafel mit Preisen</td></tr><tr><td><a href='#F2'>F2</a></td><td>Front Theke Mitte</td><td>1.80 × 0.87 m</td><td>0.00 m</td><td>Front unten, mittig auf der Theke</td></tr><tr><td><a href='#I1'>I1</a></td><td>Innen Wandsticker Bowls oben</td><td>1.40 × 0.70 m</td><td>1.80 m</td><td>innen Rückwand rechts neben der Tür, oben</td></tr><tr><td><a href='#I2'>I2</a></td><td>Innen Wandsticker Drinks unten</td><td>1.40 × 0.70 m</td><td>1.05 m</td><td>innen Rückwand rechts neben der Tür, unten</td></tr></table></div></div></section>
+<section id="flaechen"><h2>Alle Flächen</h2><p class="sub">Vorschau zeigt das Endmaß. Die Dateien enthalten zusätzlich 20 mm Beschnitt.</p></section>
+<section class="gruppe"><div class="gkopf"><h2>Seite A</h2><p>Dschungel mit drei Bowls, From the Amazon to your spoon</p></div><div class="raster">
+<article class="karte breit" id="A1">
+  <div class="bild"><img src="vorschau/A1.jpg" alt="Seite A Wand" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">A1</span><h3>Seite A Wand</h3></div>
+    <dl><div><dt>Maß</dt><dd>4.00 × 1.50 m</dd></div><div><dt>Unterkante</dt><dd>0.00 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">Seite A, Außenwand, durchgehend bis zur Saladette</p><p class="hinweis">QR Codes unten links nicht beschneiden</p>
+    <div class="dl"><a class="btn" href="dateien/01_Seite_A/A1_Seite_A_Wand_4000x1500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 16.1 MB</a><a class="btn hell" href="dateien/01_Seite_A/A1_Seite_A_Wand_4000x1500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 16.1 MB</a></div>
+  </div>
+</article>
+<article class="karte" id="A2">
+  <div class="bild"><img src="vorschau/A2.jpg" alt="Seite A Saladette" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">A2</span><h3>Seite A Saladette</h3></div>
+    <dl><div><dt>Maß</dt><dd>0.89 × 0.87 m</dd></div><div><dt>Unterkante</dt><dd>0.00 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">Seite A vorn, Saladette unter der Arbeitsplatte</p><p class="hinweis">schließt rechts nahtlos an A1 an</p>
+    <div class="dl"><a class="btn" href="dateien/01_Seite_A/A2_Seite_A_Saladette_890x870mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 2.0 MB</a><a class="btn hell" href="dateien/01_Seite_A/A2_Seite_A_Saladette_890x870mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 2.0 MB</a></div>
+  </div>
+</article>
+<article class="karte" id="A3">
+  <div class="bild"><img src="vorschau/A3.jpg" alt="Seite A Rückseite Rolltreppe" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">A3</span><h3>Seite A Rückseite Rolltreppe</h3></div>
+    <dl><div><dt>Maß</dt><dd>0.92 × 1.50 m</dd></div><div><dt>Unterkante</dt><dd>0.00 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">hinten links, Ecke zur Rolltreppe</p><p class="hinweis">Motiv läuft von A1 um die Ecke</p>
+    <div class="dl"><a class="btn" href="dateien/01_Seite_A/A3_Seite_A_Rueckseite_Rolltreppe_920x1500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 2.2 MB</a><a class="btn hell" href="dateien/01_Seite_A/A3_Seite_A_Rueckseite_Rolltreppe_920x1500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 2.2 MB</a></div>
+  </div>
+</article>
+<article class="karte breit" id="A4">
+  <div class="bild"><img src="vorschau/A4.jpg" alt="Seite A Werbetafel" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">A4</span><h3>Seite A Werbetafel</h3></div>
+    <dl><div><dt>Maß</dt><dd>4.00 × 0.50 m</dd></div><div><dt>Unterkante</dt><dd>2.30 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">über Seite A, Werbetafel</p><p class="hinweis">Oberkante 2,80 m</p>
+    <div class="dl"><a class="btn" href="dateien/01_Seite_A/A4_Seite_A_Werbetafel_4000x500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 2.2 MB</a><a class="btn hell" href="dateien/01_Seite_A/A4_Seite_A_Werbetafel_4000x500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 2.2 MB</a></div>
+  </div>
+</article></div></section><section class="gruppe"><div class="gkopf"><h2>Seite B</h2><p>Lila wie das Ladenplakat, zwei Becher mit fliegenden Toppings</p></div><div class="raster">
+<article class="karte breit" id="B1">
+  <div class="bild"><img src="vorschau/B1.jpg" alt="Seite B Wand" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">B1</span><h3>Seite B Wand</h3></div>
+    <dl><div><dt>Maß</dt><dd>4.89 × 1.50 m</dd></div><div><dt>Unterkante</dt><dd>0.00 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">Seite B, Außenwand, durchgehend</p>
+    <div class="dl"><a class="btn" href="dateien/02_Seite_B/B1_Seite_B_Wand_4890x1500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 11.4 MB</a><a class="btn hell" href="dateien/02_Seite_B/B1_Seite_B_Wand_4890x1500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 11.4 MB</a></div>
+  </div>
+</article>
+<article class="karte" id="B2">
+  <div class="bild"><img src="vorschau/B2.jpg" alt="Seite B Rückseite Rolltreppe" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">B2</span><h3>Seite B Rückseite Rolltreppe</h3></div>
+    <dl><div><dt>Maß</dt><dd>0.92 × 1.50 m</dd></div><div><dt>Unterkante</dt><dd>0.00 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">hinten rechts, Ecke zur Rolltreppe</p><p class="hinweis">Motiv läuft von B1 um die Ecke</p>
+    <div class="dl"><a class="btn" href="dateien/02_Seite_B/B2_Seite_B_Rueckseite_Rolltreppe_920x1500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 1.8 MB</a><a class="btn hell" href="dateien/02_Seite_B/B2_Seite_B_Rueckseite_Rolltreppe_920x1500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 1.8 MB</a></div>
+  </div>
+</article>
+<article class="karte breit" id="B3">
+  <div class="bild"><img src="vorschau/B3.jpg" alt="Seite B Werbetafel" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">B3</span><h3>Seite B Werbetafel</h3></div>
+    <dl><div><dt>Maß</dt><dd>4.00 × 0.50 m</dd></div><div><dt>Unterkante</dt><dd>2.30 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">über Seite B, Werbetafel</p><p class="hinweis">Oberkante 2,80 m</p>
+    <div class="dl"><a class="btn" href="dateien/02_Seite_B/B3_Seite_B_Werbetafel_4000x500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 3.3 MB</a><a class="btn hell" href="dateien/02_Seite_B/B3_Seite_B_Werbetafel_4000x500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 3.3 MB</a></div>
+  </div>
+</article></div></section><section class="gruppe"><div class="gkopf"><h2>Front</h2><p>Menüboard oben, Theke unten mit Logo</p></div><div class="raster">
+<article class="karte breit" id="F1">
+  <div class="bild"><img src="vorschau/F1.jpg" alt="Front Werbetafel Menüboard" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">F1</span><h3>Front Werbetafel Menüboard</h3></div>
+    <dl><div><dt>Maß</dt><dd>4.80 × 0.50 m</dd></div><div><dt>Unterkante</dt><dd>2.30 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">Front oben, Werbetafel mit Preisen</p><p class="hinweis">Oberkante 2,80 m</p>
+    <div class="dl"><a class="btn" href="dateien/03_Front/F1_Front_Werbetafel_Menueboard_4800x500mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 4.0 MB</a><a class="btn hell" href="dateien/03_Front/F1_Front_Werbetafel_Menueboard_4800x500mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 3.9 MB</a></div>
+  </div>
+</article>
+<article class="karte" id="F2">
+  <div class="bild"><img src="vorschau/F2.jpg" alt="Front Theke Mitte" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">F2</span><h3>Front Theke Mitte</h3></div>
+    <dl><div><dt>Maß</dt><dd>1.80 × 0.87 m</dd></div><div><dt>Unterkante</dt><dd>0.00 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">Front unten, mittig auf der Theke</p><p class="hinweis">links und rechts je 1,50 m Holzverkleidung, nicht bekleben</p>
+    <div class="dl"><a class="btn" href="dateien/03_Front/F2_Front_Theke_Mitte_1800x870mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 1.7 MB</a><a class="btn hell" href="dateien/03_Front/F2_Front_Theke_Mitte_1800x870mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 1.7 MB</a></div>
+  </div>
+</article></div></section><section class="gruppe"><div class="gkopf"><h2>Innen</h2><p>Wandsticker an der Rückwand neben der Tür</p></div><div class="raster">
+<article class="karte" id="I1">
+  <div class="bild"><img src="vorschau/I1.jpg" alt="Innen Wandsticker Bowls oben" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">I1</span><h3>Innen Wandsticker Bowls oben</h3></div>
+    <dl><div><dt>Maß</dt><dd>1.40 × 0.70 m</dd></div><div><dt>Unterkante</dt><dd>1.80 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">innen Rückwand rechts neben der Tür, oben</p><p class="hinweis">Wandsticker</p>
+    <div class="dl"><a class="btn" href="dateien/04_Innen/I1_Innen_Wandsticker_Bowls_oben_1400x700mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 2.3 MB</a><a class="btn hell" href="dateien/04_Innen/I1_Innen_Wandsticker_Bowls_oben_1400x700mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 2.3 MB</a></div>
+  </div>
+</article>
+<article class="karte" id="I2">
+  <div class="bild"><img src="vorschau/I2.jpg" alt="Innen Wandsticker Drinks unten" loading="lazy"></div>
+  <div class="info">
+    <div class="kopf"><span class="code">I2</span><h3>Innen Wandsticker Drinks unten</h3></div>
+    <dl><div><dt>Maß</dt><dd>1.40 × 0.70 m</dd></div><div><dt>Unterkante</dt><dd>1.05 m</dd></div>
+    <div><dt>Datei</dt><dd>+ 20 mm Beschnitt</dd></div></dl>
+    <p class="ort">innen Rückwand rechts neben der Tür, unten</p><p class="hinweis">Wandsticker, 5 cm Abstand zu I1</p>
+    <div class="dl"><a class="btn" href="dateien/04_Innen/I2_Innen_Wandsticker_Drinks_unten_1400x700mm_Endmass_plus_20mm_Beschnitt.pdf" download>PDF 1:1 · 2.1 MB</a><a class="btn hell" href="dateien/04_Innen/I2_Innen_Wandsticker_Drinks_unten_1400x700mm_Endmass_plus_20mm_Beschnitt.jpg" download>JPG · 2.1 MB</a></div>
+  </div>
+</article></div></section>
+<section><h2>So sieht es fertig aus</h2><p class="sub">Visualisierung zur Orientierung.</p><div class="galerie"><figure><img src="ansichten/K1_Hero_links.jpg" alt="Gesamt von vorn links" loading="lazy"><figcaption>Gesamt von vorn links</figcaption></figure><figure><img src="ansichten/K2_Front.jpg" alt="Front mit Menüboard, Theke und Innenwand" loading="lazy"><figcaption>Front mit Menüboard, Theke und Innenwand</figcaption></figure><figure><img src="ansichten/K4_Seite_A.jpg" alt="Seite A" loading="lazy"><figcaption>Seite A</figcaption></figure><figure><img src="ansichten/K3_Seite_B.jpg" alt="Seite B" loading="lazy"><figcaption>Seite B</figcaption></figure><figure><img src="ansichten/K7_Rueck_links.jpg" alt="Hinten links an der Rolltreppe" loading="lazy"><figcaption>Hinten links an der Rolltreppe</figcaption></figure><figure><img src="ansichten/K8_Rueck_rechts.jpg" alt="Hinten rechts an der Rolltreppe" loading="lazy"><figcaption>Hinten rechts an der Rolltreppe</figcaption></figure></div></section>
+<section><h2>Hinweise für die Montage</h2><p class="sub">Bitte vor dem Druck kurz prüfen.</p><div class="hinweise">
+<div><b>Anschlussmotive</b>A1 und A2, A1 und A3, B1 und B2 laufen ineinander. Kanten bündig setzen, damit das Bild ohne Versatz weiterläuft.</div>
+<div><b>Theke vorn</b>Nur die Mitte (F2, 1,80 m) wird beklebt. Links und rechts je 1,50 m Holzverkleidung, nicht bekleben.</div>
+<div><b>Maße</b>Alle Maße nach Aufmaß. Vor dem Druck vor Ort nachmessen, besonders Saladette (0,89 m) und die Rückseiten (0,92 m).</div>
+</div></section>
+<footer>Açaí x You Kiosk Spandau · Druckdaten für die Werbetechnik · Fragen zur Gestaltung bitte an den Auftraggeber.</footer>
+</div></body></html>

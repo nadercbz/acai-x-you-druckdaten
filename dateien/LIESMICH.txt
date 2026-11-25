@@ -1,0 +1,22 @@
+Druckdaten Açaí x You Kiosk Spandau
+Stand 25.11.2026
+
+Alle Dateien in Endmaß 1:1 plus 20 mm Beschnitt umlaufend (gespiegelt).
+Auflösung 3000 Pixel pro Meter in Endgröße (rund 76 dpi bei 1:1). Farbraum RGB (sRGB).
+PDF: Seitengröße entspricht der Druckgröße inklusive Beschnitt. JPG zusätzlich mit gleicher Pixelzahl.
+Wo was hinkommt: 00_Klebeplan.pdf
+
+Flächen:
+  A1  Seite A Wand  4.00 x 1.50 m  |  Seite A, Außenwand, durchgehend bis zur Saladette  |  Unterkante 0.00 m  |  QR Codes unten links nicht beschneiden
+  A2  Seite A Saladette  0.89 x 0.87 m  |  Seite A vorn, Saladette unter der Arbeitsplatte  |  Unterkante 0.00 m  |  schließt rechts nahtlos an A1 an
+  A3  Seite A Rueckseite Rolltreppe  0.92 x 1.50 m  |  hinten links, Ecke zur Rolltreppe  |  Unterkante 0.00 m  |  Motiv läuft von A1 um die Ecke
+  A4  Seite A Werbetafel  4.00 x 0.50 m  |  über Seite A, Werbetafel  |  Unterkante 2.30 m  |  Oberkante 2,80 m
+  B1  Seite B Wand  4.89 x 1.50 m  |  Seite B, Außenwand, durchgehend  |  Unterkante 0.00 m
+  B2  Seite B Rueckseite Rolltreppe  0.92 x 1.50 m  |  hinten rechts, Ecke zur Rolltreppe  |  Unterkante 0.00 m  |  Motiv läuft von B1 um die Ecke
+  B3  Seite B Werbetafel  4.00 x 0.50 m  |  über Seite B, Werbetafel  |  Unterkante 2.30 m  |  Oberkante 2,80 m
+  F1  Front Werbetafel Menueboard  4.80 x 0.50 m  |  Front oben, Werbetafel mit Preisen  |  Unterkante 2.30 m  |  Oberkante 2,80 m
+  F2  Front Theke Mitte  1.80 x 0.87 m  |  Front unten, mittig auf der Theke  |  Unterkante 0.00 m  |  links und rechts je 1,50 m Holzverkleidung, nicht bekleben
+  I1  Innen Wandsticker Bowls oben  1.40 x 0.70 m  |  innen Rückwand rechts neben der Tür, oben  |  Unterkante 1.80 m  |  Wandsticker
+  I2  Innen Wandsticker Drinks unten  1.40 x 0.70 m  |  innen Rückwand rechts neben der Tür, unten  |  Unterkante 1.05 m  |  Wandsticker, 5 cm Abstand zu I1
+
+Alle Maße vor Ausführung vor Ort nachmessen.
